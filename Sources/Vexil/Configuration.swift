@@ -121,7 +121,7 @@ public extension Flag {
 
     /// An enumeration describing how the key should be calculated for this specific `Flag`.
     ///
-    enum CodingKeyStrategy {
+    enum CodingKeyStrategy: Sendable {
 
         /// Follow the default behaviour applied to the `FlagPole`
         case `default`

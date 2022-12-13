@@ -205,6 +205,7 @@ public struct Flag<Value>: Decorated, Identifiable where Value: FlagValue {
 
 }
 
+extension Flag: Sendable where Value: Sendable { }
 
 // MARK: - Equatable and Hashable Support
 

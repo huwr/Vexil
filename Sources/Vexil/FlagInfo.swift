@@ -9,7 +9,7 @@
 ///
 /// This is mostly used by flag editors like Vexillographer.
 ///
-public struct FlagInfo {
+public struct FlagInfo: Sendable {
 
     // MARK: - Properties
 
